@@ -35,8 +35,6 @@ Dyslexia affects approximately 5-10% of the population, making the decoding of h
 
 ## Project Structure
 - AdaptiRead.ipynb # Main notebook containing training, inference, and LIME logic
-- auto_acl.csv # WikiAuto dataset (Complex/Simple sentence pairs)
-- SUBTLEX-UK.csv # Word frequency dictionary for DSCI scoring
 - README.md # Project documentation
 
 ## Installation
@@ -74,5 +72,5 @@ Dyslexia affects approximately 5-10% of the population, making the decoding of h
 
 ## References & Datasets
 
-* **WikiAuto Dataset:** Used for fine-tuning the Seq2Seq T5 model.
-* **SUBTLEX-UK:** Used for Zipf frequency analysis in the complexity metric.
+* **WikiAuto Dataset:** Used for fine-tuning the Seq2Seq T5 model. This can be accessed using [Tensorflow datasets](https://www.tensorflow.org/datasets/catalog/wiki_auto).
+* **SUBTLEX-UK:** Used for Zipf frequency analysis in the complexity metric. This can be accessed [here](https://shiny.psychology.nottingham.ac.uk/lpzwjv/SUBTLEX-UK/).
