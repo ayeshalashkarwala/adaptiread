@@ -42,7 +42,6 @@ Dyslexia affects approximately 5-10% of the population, making the decoding of h
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/ayeshalashkarwala/adaptiRead.git
-    cd AdaptiRead
     ```
 
 2.  **Install dependencies:**
